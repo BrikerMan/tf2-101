@@ -62,7 +62,7 @@
 
 在本章中，你将学习 Python 数据处理中最常用的三个工具 Numpy, Pandas, Matplotlib。几乎每一个实验都会用到这几个工具。熟练掌握它们是学习深度学习中的第一步。
 
-- [代码 Notebook 文件](chapter-02.ipython) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-02.ipynb) 建议使用 CPU 运行环境。
 
 ## 2.1 扩展资料
 
