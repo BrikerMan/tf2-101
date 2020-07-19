@@ -99,6 +99,16 @@
 - [Kaggle 竞赛 - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
 
+# 第 6 章 TensorFlow 2.0 介绍
+
+在本章中，您将学习 TensorFlow 2.0 版本的新特性，模型保存方法，训练回调函数和可视化。模型保存和训练回调是所有深度学习任务必须要掌握的技能，训练可视化则可以帮助您更好地理解和调试模型。
+
+- [代码 Notebook 文件](chapter-06.ipynb) 建议使用 CPU 运行环境。
+
+## 6.1 扩展资料
+
+- [初学者的 TensorFlow 2.0 教程](https://www.tensorflow.org/tutorials/quickstart/beginner)
+
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 [OpenBayes]: https://openbayes.com/
