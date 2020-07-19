@@ -118,3 +118,4 @@ dmypy.json
 
 # DATA
 data/poetry
+data/bert
