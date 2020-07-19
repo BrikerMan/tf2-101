@@ -71,6 +71,16 @@
 - [Matplotlib 教程 | 菜鸟教程](https://www.runoob.com/w3cnote/matplotlib-tutorial.html)
 - [Pandas Profiling-一键生成数据报告](https://mathpretty.com/11152.html)
 
+
+# 第 3 章 
+
+在本章中您将通过动手实现一个神经网络来学习神经网络基础知识。由于本章重点在于动手实现，有不少知识点一带而过，所以实现过程遇到不懂的概念和公式不要慌，继续按照代码示例把神经网络实现了。实现完成后继续看第4章，看完第4章回过头来再看一遍第3章就能理解大部分内容。至于数学公式和推导，您只需要知道哪个阶段用了什么公式即可，并不要求掌握具体的推导过程。
+
+- [代码 Notebook 文件](chapter-03.ipynb) 建议使用 CPU 运行环境。
+
+## 3.1 扩展资料
+- [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
+
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 [OpenBayes]: https://openbayes.com/
