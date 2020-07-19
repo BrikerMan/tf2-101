@@ -1,3 +1,7 @@
+# 常见工具介绍
 numpy
 pandas
 matplotlib
+
+# notebook 相关
+jupyterlab
