@@ -32,6 +32,8 @@
   - [7.1 扩展资料](#71-扩展资料)
 - [第 8 章 图像识别进阶](#第-8-章-图像识别进阶)
   - [8.1 扩展资料](#81-扩展资料)
+- [第 9 章 图像画风迁移](#第-9-章-图像画风迁移)
+  - [9.1 扩展资料](#91-扩展资料)
 
 # 第 1 章 环境配置
 
@@ -144,6 +146,18 @@ pip install tensorflow_hub
 
 - [Pillow 框架介绍](https://www.liaoxuefeng.com/wiki/1016959663602400/1017785454949568)
 - [TensorFlow Hub 官网](https://www.tensorflow.org/hub)
+
+# 第 9 章 图像画风迁移
+
+- [代码 Notebook 文件](chapter-09.ipynb) 建议使用 G{U 运行环境。
+
+**数据集**
+
+数据已经下载并且存到 `data/style-tranfer` 目录下。如果想换别的图像做风格转换，可以从 [无版权图库 unsplash](https://unsplash.com/) 下载图像使用。
+
+## 9.1 扩展资料
+
+- [无版权图库 unsplash](https://unsplash.com/) 该章节内容图来自该站点。
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
