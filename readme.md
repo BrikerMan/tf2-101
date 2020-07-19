@@ -30,6 +30,8 @@
   - [6.1 扩展资料](#61-扩展资料)
 - [第 7 章 图像识别入门](#第-7-章-图像识别入门)
   - [7.1 扩展资料](#71-扩展资料)
+- [第 8 章 图像识别进阶](#第-8-章-图像识别进阶)
+  - [8.1 扩展资料](#81-扩展资料)
 
 # 第 1 章 环境配置
 
@@ -71,7 +73,6 @@
 - [Matplotlib 教程 | 菜鸟教程](https://www.runoob.com/w3cnote/matplotlib-tutorial.html)
 - [Pandas Profiling-一键生成数据报告](https://mathpretty.com/11152.html)
 
-
 # 第 3 章 从零搭建神经网络
 
 在本章中您将通过动手实现一个神经网络来学习神经网络基础知识。由于本章重点在于动手实现，有不少知识点一带而过，所以实现过程遇到不懂的概念和公式不要慌，继续按照代码示例把神经网络实现了。实现完成后继续看第4章，看完第4章回过头来再看一遍第3章就能理解大部分内容。至于数学公式和推导，您只需要知道哪个阶段用了什么公式即可，并不要求掌握具体的推导过程。
@@ -100,7 +101,6 @@
 
 - [Kaggle 竞赛 - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
 
-
 # 第 6 章 TensorFlow 2.0 介绍
 
 在本章中，您将学习 TensorFlow 2.0 版本的新特性，模型保存方法，训练回调函数和可视化。模型保存和训练回调是所有深度学习任务必须要掌握的技能，训练可视化则可以帮助您更好地理解和调试模型。
@@ -115,6 +115,16 @@
 
 在本章中，您将构建一个简单的模型入门图像识别，然后用卷积神经网络来优化图像识别的效果。
 
+- [代码 Notebook 文件](chapter-07.ipynb) 建议使用 CPU 运行环境。
+
+## 7.1 扩展资料
+
+- [cs231n - Convolutional Neural Networks (CNNs/ConvNets)](https://cs231n.github.io/convolutional-networks/)
+
+# 第 8 章 图像识别进阶
+
+本章我们通过一个花朵种类分类问题进一步学习图像识别。真实的图像识别问题中，需要从磁盘读取图片文件，进行预处理和数据增强才能开始训练模型。除了数据增强，我们还可以通过迁移学习的方案大幅度降低训练成本，快速获得表现很好的模型。
+
 **数据集下载**
 
 下载 TensorFlow 官方提供的花分类数据集
@@ -125,14 +135,15 @@
 
 ```bash
 pip install pillow
+pip install tensorflow_hub
 ```
 
-- [代码 Notebook 文件](chapter-07.ipynb) 建议使用 CPU 运行环境。
+- [代码 Notebook 文件](chapter-07.ipynb) 建议使用 GPU 运行环境。
 
-## 7.1 扩展资料
+## 8.1 扩展资料
 
 - [Pillow 框架介绍](https://www.liaoxuefeng.com/wiki/1016959663602400/1017785454949568)
-- [cs231n - Convolutional Neural Networks (CNNs/ConvNets)](https://cs231n.github.io/convolutional-networks/)
+- [TensorFlow Hub 官网](https://www.tensorflow.org/hub)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
