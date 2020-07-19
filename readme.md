@@ -36,6 +36,7 @@
   - [10.2 论文](#102-论文)
 - [第 11 章 语音助手意图分类](#第-11-章-语音助手意图分类)
   - [11.1 扩展资料](#111-扩展资料)
+- [第 12 章 自然语言生成实战](#第-12-章-自然语言生成实战)
 
 # 第 1 章 环境配置
 
@@ -188,6 +189,8 @@ pip install tensorflow_hub
 
 在本章中，我们通过解决一个语音助手类场景下的意图分类问题学习中文文本分类建模流程。对于短文本小语料类场景，我们通常使用预训练词嵌入提高模型性能和泛化能力。
 
+- [代码 Notebook 文件](chapter-11.ipynb) 建议使用 CPU 运行环境。
+
 **数据集**
 
 - [中文人机对话技术评测语料 SMP2018-ECDT-TASK1](https://worksheets.codalab.org/worksheets/0x27203f932f8341b79841d50ce0fd684f/) ：用于本实验，已经下载保存到 `data/SMP2018-Task-1` 目录。
@@ -198,6 +201,23 @@ pip install tensorflow_hub
 - [Natural Language Processing: Text Classification](https://paperswithcode.com/task/text-classification)
 - [What is Text Classification?](https://monkeylearn.com/text-classification/)
 - [TensorFlow Guides: Text classification](https://developers.google.com/machine-learning/guides/text-classification)
+
+# 第 12 章 自然语言生成实战
+
+在本章中，读者将学习如何使用编码-解码架构构建一个自然语言生成模型。通过写诗和翻译两个实例，分别了解 LSTM 语言模型和 Seq2Seq。
+
+- [代码 Notebook 文件 - LSTM 写诗](chapter-12-1.ipynb) 建议使用 GPU 运行环境。
+- [代码 Notebook 文件 - Seq2Seq 翻译](chapter-12-2.ipynb) 建议使用 GPU 运行环境。
+
+**数据集**
+
+- 古诗数据集：下载 [古诗-简体](https://github.com/chinese-poetry/chinese-poetry-zhCN) 仓库，复制  `poetry` 目录到 `data/poetry`。
+- 翻译数据集：从 http://www.manythings.org/anki/ 下载中文-英文翻译数据集，并解压到 `data/cmn-eng` 目录。
+
+## 12.1 扩展资料
+
+- [循环神经网络（RNN）文本生成: 莎士比亚作品](https://www.tensorflow.org/tutorials/text/text_generation)
+- [Beginners Guide to Text Generation using LSTMs](https://www.kaggle.com/shivamb/beginners-guide-to-text-generation-using-lstms)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
