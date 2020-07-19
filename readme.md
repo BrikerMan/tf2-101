@@ -11,9 +11,6 @@
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 
-# 目录
-
-- [目录](#目录)
 - [第 1 章 环境配置](#第-1-章-环境配置)
   - [1.1 云端 Notebook 环境介绍](#11-云端-notebook-环境介绍)
   - [1.2 本地 Notebook 环境准备](#12-本地-notebook-环境准备)
@@ -34,6 +31,8 @@
   - [8.1 扩展资料](#81-扩展资料)
 - [第 9 章 图像画风迁移](#第-9-章-图像画风迁移)
   - [9.1 扩展资料](#91-扩展资料)
+- [第 10 章 自然语言处理入门](#第-10-章-自然语言处理入门)
+  - [10.1 扩展资料](#101-扩展资料)
 
 # 第 1 章 环境配置
 
@@ -149,7 +148,7 @@ pip install tensorflow_hub
 
 # 第 9 章 图像画风迁移
 
-- [代码 Notebook 文件](chapter-09.ipynb) 建议使用 G{U 运行环境。
+- [代码 Notebook 文件](chapter-09.ipynb) 建议使用 GPU 运行环境。
 
 **数据集**
 
@@ -158,6 +157,23 @@ pip install tensorflow_hub
 ## 9.1 扩展资料
 
 - [无版权图库 unsplash](https://unsplash.com/) 该章节内容图来自该站点。
+
+# 第 10 章 自然语言处理入门
+
+在本章中，我们将学习文本数据预处理，向量表示和循环神经网络的概念基础。
+
+- [代码 Notebook 文件](chapter-10.ipynb) 建议使用 CPU 运行环境。
+
+**数据集**
+
+- 预训练词嵌入：从仓库 [Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors) 下载微博词嵌入，选择 Word2vec / Skip-Gram with Negative Sampling (SGNS) 分类下 Word + Character + Ngram 方式训练的词向量。下载词向量为 bz2 格式的压缩文件，解压压缩文件 `sgns.weibo.bigram-char.bz2` 到 `data/word2vec/sgns.weibo.bigram-char` 路径下。
+
+## 10.1 扩展资料
+
+- [Word2Vec 可视化](https://projector.tensorflow.org/)
+- [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec)
+- [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/)
+- [理解 LSTM 网络](https://www.yunaitong.cn/understanding-lstm-networks.html)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
