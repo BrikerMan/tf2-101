@@ -13,23 +13,23 @@
 
 # 目录
 
+- [目录](#目录)
 - [第 1 章 环境配置](#第-1-章-环境配置)
-  - [云笔记本介绍](#11-云端-Notebook-介绍)
-  - [本地环境配置](#12-本地-Notebook-环境准备)
-  - [代码规范介绍](#13-代码规范介绍)
+  - [1.1 云端 Notebook 环境介绍](#11-云端-notebook-环境介绍)
+  - [1.2 本地 Notebook 环境准备](#12-本地-notebook-环境准备)
+  - [1.3 代码规范介绍](#13-代码规范介绍)
 - [第 2 章 常见工具介绍](#第-2-章-常见工具介绍)
-  - [扩展阅读](#21-扩展阅读)
+  - [2.1 扩展资料](#21-扩展资料)
 - [第 3 章 从零搭建神经网络](#第-3-章-从零搭建神经网络)
+  - [3.1 扩展资料](#31-扩展资料)
 - [第 4 章 深度学习基础](#第-4-章-深度学习基础)
+  - [4.1 扩展资料](#41-扩展资料)
 - [第 5 章 泰坦尼克幸存者预测](#第-5-章-泰坦尼克幸存者预测)
+  - [5.1 扩展资料](#51-扩展资料)
 - [第 6 章 TensorFlow 2.0 介绍](#第-6-章-tensorflow-20-介绍)
+  - [6.1 扩展资料](#61-扩展资料)
 - [第 7 章 图像识别入门](#第-7-章-图像识别入门)
-- [第 8 章 图像识别进阶](#第-8-章-图像识别进阶)
-- [第 9 章 图像画风迁移](#第-9-章-图像画风迁移)
-- [第 10 章 自然语言处理入门](#第-10-章-自然语言处理入门)
-- [第 11 章 语音助手意图分类](#第-11-章-语音助手意图分类)
-- [第 12 章 自然语言生成实战](#第-12-章-自然语言生成实战)
-- [第 13 章 中文实体识别实战](#第-13-章-中文实体识别实战)
+  - [7.1 扩展资料](#71-扩展资料)
 
 # 第 1 章 环境配置
 
@@ -79,6 +79,7 @@
 - [代码 Notebook 文件](chapter-03.ipynb) 建议使用 CPU 运行环境。
 
 ## 3.1 扩展资料
+
 - [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
 
 # 第 4 章 深度学习基础
@@ -86,6 +87,7 @@
 本章您将学习深度学习的基本概念、模型评估方案以及如何解决模型的欠拟合过拟合。尽管深度学习中概念非常多，背后涉及大量的数学知识，但初学阶段不用太担心，建议先大体了解这些概念，再通过一个个实践项目去深入理解。
 
 ## 4.1 扩展资料
+
 - [Google 机器学习速成课程 - 机器学习简介](https://developers.google.cn/machine-learning/crash-course/ml-intro)
 
 # 第 5 章 泰坦尼克幸存者预测
@@ -108,6 +110,29 @@
 ## 6.1 扩展资料
 
 - [初学者的 TensorFlow 2.0 教程](https://www.tensorflow.org/tutorials/quickstart/beginner)
+
+# 第 7 章 图像识别入门
+
+在本章中，您将构建一个简单的模型入门图像识别，然后用卷积神经网络来优化图像识别的效果。
+
+**数据集下载**
+
+下载 TensorFlow 官方提供的花分类数据集
+（[https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)），
+并且解压到 `data/flower_photos` 目录下。
+
+**新增依赖**
+
+```bash
+pip install pillow
+```
+
+- [代码 Notebook 文件](chapter-07.ipynb) 建议使用 CPU 运行环境。
+
+## 7.1 扩展资料
+
+- [Pillow 框架介绍](https://www.liaoxuefeng.com/wiki/1016959663602400/1017785454949568)
+- [cs231n - Convolutional Neural Networks (CNNs/ConvNets)](https://cs231n.github.io/convolutional-networks/)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
