@@ -9,3 +9,6 @@ jupyterlab
 # ML 框架
 tensorflow>=2.0.0
 sklearn
+
+# 图像处理
+pillow
