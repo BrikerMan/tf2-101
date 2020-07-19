@@ -33,6 +33,9 @@
   - [9.1 扩展资料](#91-扩展资料)
 - [第 10 章 自然语言处理入门](#第-10-章-自然语言处理入门)
   - [10.1 扩展资料](#101-扩展资料)
+  - [10.2 论文](#102-论文)
+- [第 11 章 语音助手意图分类](#第-11-章-语音助手意图分类)
+  - [11.1 扩展资料](#111-扩展资料)
 
 # 第 1 章 环境配置
 
@@ -174,6 +177,27 @@ pip install tensorflow_hub
 - [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec)
 - [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/)
 - [理解 LSTM 网络](https://www.yunaitong.cn/understanding-lstm-networks.html)
+
+## 10.2 论文
+
+- [Semi-supervised sequence tagging with bidirectional language models](https://arxiv.org/abs/1705.00108)
+- [Learned in Translation: Contextualized Word Vectors](https://arxiv.org/abs/1708.00107)
+- [Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf)
+
+# 第 11 章 语音助手意图分类
+
+在本章中，我们通过解决一个语音助手类场景下的意图分类问题学习中文文本分类建模流程。对于短文本小语料类场景，我们通常使用预训练词嵌入提高模型性能和泛化能力。
+
+**数据集**
+
+- [中文人机对话技术评测语料 SMP2018-ECDT-TASK1](https://worksheets.codalab.org/worksheets/0x27203f932f8341b79841d50ce0fd684f/) ：用于本实验，已经下载保存到 `data/SMP2018-Task-1` 目录。
+- [THUCNews 数据集子集](https://pan.baidu.com/s/1hugrfRu)：密码: qfud，THUCNews 的子集。该数据集包括 `体育, 财经, 房产, 家居, 教育, 科技, 时尚, 时政, 游戏, 娱乐` 十分类的数据，每个分类包括 6500 条新闻。感谢 [@gaussic](https://github.com/gaussic) 分享。如果需要完整数据集请自行到 [THUCTC：一个高效的中文文本分类工具包](http://thuctc.thunlp.org/) 下载。可以自行在这个数据集上做分类实验。
+
+## 11.1 扩展资料
+
+- [Natural Language Processing: Text Classification](https://paperswithcode.com/task/text-classification)
+- [What is Text Classification?](https://monkeylearn.com/text-classification/)
+- [TensorFlow Guides: Text classification](https://developers.google.com/machine-learning/guides/text-classification)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
