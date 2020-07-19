@@ -37,6 +37,8 @@
 - [第 11 章 语音助手意图分类](#第-11-章-语音助手意图分类)
   - [11.1 扩展资料](#111-扩展资料)
 - [第 12 章 自然语言生成实战](#第-12-章-自然语言生成实战)
+  - [12.1 扩展资料](#121-扩展资料)
+- [第 13 章 中文实体识别实战](#第-13-章-中文实体识别实战)
 
 # 第 1 章 环境配置
 
@@ -218,6 +220,23 @@ pip install tensorflow_hub
 
 - [循环神经网络（RNN）文本生成: 莎士比亚作品](https://www.tensorflow.org/tutorials/text/text_generation)
 - [Beginners Guide to Text Generation using LSTMs](https://www.kaggle.com/shivamb/beginners-guide-to-text-generation-using-lstms)
+
+# 第 13 章 中文实体识别实战
+
+命名实体识别是自然语言处理中最基础的任务之一。本章中我们以人民日报语料实体识别任务为例，学习如何实现文本序列标注。同时学习如何使用BERT实现迁移学习来提高模型效果。
+
+- [代码 Notebook 文件](chapter-13.ipynb) 建议使用 GPU 运行环境。
+
+**数据集**
+
+- 人民日报 NER 数据集：经典的命名实体识别数据集， 流传时间很长，比较难以确定数据来源。已下载到 `data/peoples-daily-ner`。
+- BERT 中文模型：从 [BERT 官网](https://github.com/google-research/bert) 下载 `BERT-Base, Chinese` 模型，解压到 `data/bert/chinese_L-12_H-768_A-12` 目录下。
+
+**新增依赖**
+
+```bash
+pip install keras_bert
+```
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
