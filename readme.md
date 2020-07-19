@@ -72,7 +72,7 @@
 - [Pandas Profiling-一键生成数据报告](https://mathpretty.com/11152.html)
 
 
-# 第 3 章 
+# 第 3 章 从零搭建神经网络
 
 在本章中您将通过动手实现一个神经网络来学习神经网络基础知识。由于本章重点在于动手实现，有不少知识点一带而过，所以实现过程遇到不懂的概念和公式不要慌，继续按照代码示例把神经网络实现了。实现完成后继续看第4章，看完第4章回过头来再看一遍第3章就能理解大部分内容。至于数学公式和推导，您只需要知道哪个阶段用了什么公式即可，并不要求掌握具体的推导过程。
 
@@ -80,6 +80,13 @@
 
 ## 3.1 扩展资料
 - [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
+
+# 第 4 章 深度学习基础
+
+本章您将学习深度学习的基本概念、模型评估方案以及如何解决模型的欠拟合过拟合。尽管深度学习中概念非常多，背后涉及大量的数学知识，但初学阶段不用太担心，建议先大体了解这些概念，再通过一个个实践项目去深入理解。
+
+## 4.1 扩展资料
+- [Google 机器学习速成课程 - 机器学习简介](https://developers.google.cn/machine-learning/crash-course/ml-intro)
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
