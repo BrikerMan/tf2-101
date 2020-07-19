@@ -5,3 +5,7 @@ matplotlib
 
 # notebook 相关
 jupyterlab
+
+# ML 框架
+tensorflow>=2.0.0
+sklearn

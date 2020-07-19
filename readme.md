@@ -88,6 +88,17 @@
 ## 4.1 扩展资料
 - [Google 机器学习速成课程 - 机器学习简介](https://developers.google.cn/machine-learning/crash-course/ml-intro)
 
+# 第 5 章 泰坦尼克幸存者预测
+
+在本章中你将通过搭建一个神经网络模型，了解深度学习的工作流程。读者们如果能够按照本章代码重现实验结果，完成 hello world 项目，就达成了学习目标。
+
+- [代码 Notebook 文件](chapter-05.ipynb) 建议使用 CPU 运行环境。
+
+## 5.1 扩展资料
+
+- [Kaggle 竞赛 - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
+
+
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 [OpenBayes]: https://openbayes.com/
