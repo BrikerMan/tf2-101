@@ -39,6 +39,10 @@
 - [第 12 章 自然语言生成实战](#第-12-章-自然语言生成实战)
   - [12.1 扩展资料](#121-扩展资料)
 - [第 13 章 中文实体识别实战](#第-13-章-中文实体识别实战)
+- [第 14 章 生成对抗网络](#第-14-章-生成对抗网络)
+  - [14.1 扩展资料](#141-扩展资料)
+- [第 15 章 强化学习](#第-15-章-强化学习)
+  - [15.1 扩展资料](#151-扩展资料)
 
 # 第 1 章 环境配置
 
@@ -248,3 +252,23 @@ pip install keras_bert
 [设置Google-colab使用免费GPU]: https://gabriel1225.github.io/%E8%AE%BE%E7%BD%AEGoogle-colab%E4%BD%BF%E7%94%A8%E5%85%8D%E8%B4%B9GPU.html
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
+# 第 14 章 生成对抗网络
+
+本章将通过生成手写数字图像实践，学习生成式对抗网络原理和训练方法。
+
+## 14.1 扩展资料
+
+- [Keras GAN](https://github.com/eriklindernoren/Keras-GAN)
+- [DCGAN - TensorFlow 官方教程](https://www.tensorflow.org/tutorials/generative/dcgan)
+- [pix2pix - TensorFlow 官方教程](https://www.tensorflow.org/tutorials/generative/pix2pix)
+- [CycleGAN - TensorFlow 官方教程](https://www.tensorflow.org/tutorials/generative/cyclegan)
+
+# 第 15 章 强化学习
+
+本章将通过 gym 强化学习环境，学习如何利用 Q-Learning 和 Deep Q Network 解决简单强化学习任务。
+
+## 15.1 扩展资料
+
+- [Gym 框架](https://gym.openai.com/)
+- [Introduction to RL and Deep Q Networks - TensorFlow 官方教程](https://www.tensorflow.org/agents/tutorials/0_intro_rl)
