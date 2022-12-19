@@ -183,7 +183,7 @@ pip install tensorflow_hub
 - [Word2Vec 可视化](https://projector.tensorflow.org/)
 - [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec)
 - [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/)
-- [理解 LSTM 网络](https://www.yunaitong.cn/understanding-lstm-networks.html)
+- [理解 LSTM 网络](https://www.jianshu.com/p/9dc9f41f0b29)
 
 ## 10.2 论文
 
